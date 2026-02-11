@@ -1,0 +1,166 @@
+{
+  "type": "compound",
+  "name": "",
+  "value": {
+    "format_version": {
+      "type": "int",
+      "value": 1
+    },
+    "size": {
+      "type": "list",
+      "value": {
+        "type": "int",
+        "value": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    "structure": {
+      "type": "compound",
+      "value": {
+        "block_indices": {
+          "type": "list",
+          "value": {
+            "type": "list",
+            "value": [
+              {
+                "type": "byte",
+                "value": []
+              },
+              {
+                "type": "byte",
+                "value": []
+              }
+            ]
+          }
+        },
+        "entities": {
+          "type": "list",
+          "value": {
+            "type": "compound",
+            "value": [
+              {
+                "Age": {
+                  "type": "short",
+                  "value": 40
+                },
+                "Health": {
+                  "type": "short",
+                  "value": 5
+                },
+                "Item": {
+                  "type": "compound",
+                  "value": {
+                    "Count": {
+                      "type": "byte",
+                      "value": 1
+                    },
+                    "Damage": {
+                      "type": "short",
+                      "value": 0
+                    },
+                    "Name": {
+                      "type": "string",
+                      "value": "minecraft:diamond_chestplate"
+                    },
+                    "WasPickedUp": {
+                      "type": "byte",
+                      "value": 0
+                    },
+                    "tag": {
+                      "type": "compound",
+                      "value": {
+                        "Damage": {
+                          "type": "int",
+                          "value": 0
+                        },
+                        "ench": {
+                          "type": "list",
+                          "value": {
+                            "type": "compound",
+                            "value": [
+                              {
+                                "id": {
+                                  "type": "short",
+                                  "value": 0
+                                },
+                                "lvl": {
+                                  "type": "short",
+                                  "value": 4
+                                }
+                              },
+                              {
+                                "id": {
+                                  "type": "short",
+                                  "value": 1
+                                },
+                                "lvl": {
+                                  "type": "short",
+                                  "value": 4
+                                }
+                              },
+                              {
+                                "id": {
+                                  "type": "short",
+                                  "value": 3
+                                },
+                                "lvl": {
+                                  "type": "short",
+                                  "value": 4
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "OnGround": {
+                  "type": "byte",
+                  "value": 1
+                },
+                "Pos": {
+                  "type": "list",
+                  "value": {
+                    "type": "float",
+                    "value": [
+                      0.5,
+                      0,
+                      0.5
+                    ]
+                  }
+                },
+                "identifier": {
+                  "type": "string",
+                  "value": "minecraft:item"
+                },
+                "internalComponents": {
+                  "type": "compound",
+                  "value": {}
+                }
+              }
+            ]
+          }
+        },
+        "palette": {
+          "type": "compound",
+          "value": {}
+        }
+      }
+    },
+    "structure_world_origin": {
+      "type": "list",
+      "value": {
+        "type": "int",
+        "value": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  }
+}
